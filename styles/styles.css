@@ -1,0 +1,119 @@
+* {
+    font-family: "Lexend Giga", serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Smooch Sans", serif;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+
+h1 {
+    font-size: 8rem;
+    font-weight: 900;
+}
+
+h1:hover 
+
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+
+
+
+
+
+.parallax {
+    background-image: url("../images/herobanner1.jpg");
+
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hero-content {
+    height: 60vh;
+    max-height: 500px;
+    background-color: rgba(0, 0, 0, 0.66);
+    color: white;
+    padding: 200px 100px 0;
+}
+
+.max-width {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pad-tb-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+
+
+/* FLEXBOX CLASSES */
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-item-half {
+    flex-basis: 1;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .flex-item-half {
+        flex-basis: 0.5;
+    }
+
+    .hero-content {
+        max-height: none;
+    }
+}
+
+
+
+
+/*
+.smooch-sans-<uniquifier> {
+  font-family: "Smooch Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} 
+*/
+
+/*
+.lexend-giga-<uniquifier> {
+  font-family: "Lexend Giga", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*/
