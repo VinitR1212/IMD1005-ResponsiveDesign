@@ -100,6 +100,10 @@ footer {
     width: 100%;
 }
 
+.flex-item-full {
+    width: 100%;
+}
+
 .po-bg {
     background-image: url("../images/po.jpg");
     background-repeat: no-repeat;
@@ -148,6 +152,7 @@ footer {
     .po-bg-content {
         padding-top: 200px;
     }
+
 }
 
 
