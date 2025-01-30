@@ -22,6 +22,14 @@ h1 {
     transition: all 1s ease;
 }
 
+h1 span {
+    font-family: "Smooch Sans", serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
 .funny:hover {
     font-size: 12rem;
     color: rgb(104, 235, 104);
@@ -100,13 +108,15 @@ footer {
 }
 
 .po-bg-content {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.66);
     color: white;
-    transition: all 1s ease;
+    transition: all 1.5s ease;
     height: 100%;
 }
 
 .po-bg-content:hover {
+    color: rgba(0, 0, 0, 0);
+    font-size: 12px;
     background-color: rgba(0,0,0,0);
 }
 
