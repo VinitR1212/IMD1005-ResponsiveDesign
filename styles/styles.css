@@ -19,13 +19,17 @@ p {
 h1 {
     font-size: 8rem;
     font-weight: 900;
+    transition: all 1s ease;
 }
 
-h1:hover 
+.funny:hover {
+    font-size: 12rem;
+    color: rgb(104, 235, 104);
+}
 
 img {
     display: inline-block;
-    max-width: 100%;
+    width: 100%;
 }
 
 
@@ -60,6 +64,10 @@ img {
     padding-bottom: 20px;
 }
 
+.pad-20 {
+    padding: 20px;
+} 
+
 footer {
     color: white;
     background-color: black;
@@ -73,10 +81,33 @@ footer {
 .flex {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
 }
 
 .flex-item-half {
-    flex-basis: 1;
+    width: 100%;
+}
+
+.po-bg {
+    background-image: url("../images/po.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.po-bg-content {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    transition: all 1s ease;
+    height: 100%;
+}
+
+.po-bg-content:hover {
+    background-color: rgba(0,0,0,0);
 }
 
 
@@ -88,12 +119,24 @@ footer {
         flex-direction: row;
     }
 
+    .flex-col {
+        flex-direction: column;
+    }    
+
     .flex-item-half {
-        flex-basis: 0.5;
+        width: 50%;
     }
 
     .hero-content {
         max-height: none;
+    }
+
+    .po-bg {
+        height: 500px;
+    }
+
+    .po-bg-content {
+        padding-top: 200px;
     }
 }
 
